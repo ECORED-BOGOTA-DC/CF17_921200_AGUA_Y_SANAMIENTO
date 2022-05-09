@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'CF17-Tecnólogo_Supervisión_de_sistemas_de_agua_y_saneamiento'

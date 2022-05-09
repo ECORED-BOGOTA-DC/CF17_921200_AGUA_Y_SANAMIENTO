@@ -1,11 +1,12 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1  Ciclo de vida Scrum      
+    
 
 </template>
 
@@ -13,7 +14,10 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

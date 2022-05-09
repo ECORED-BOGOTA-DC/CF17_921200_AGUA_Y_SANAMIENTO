@@ -7,7 +7,13 @@
       .titulo-principal__numero
         span
           i.fas.fa-info
-      h1 Introducción
+      h1 Introducción                                        
+
+    
+    figure.mb-5(data-aos="zoom-in-up")
+      .video
+        iframe(width="942" height="530" src="https://www.youtube.com/embed/9MaFAIVuGVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      
 
 </template>
 
