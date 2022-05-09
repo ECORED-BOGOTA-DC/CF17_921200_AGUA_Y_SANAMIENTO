@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Scrum, descripciones y características',
+    componenteFormativo:
+      'Caracterización del servicio público domiciliario de aseo',
     descripcionCurso:
-      'Con el estudio de este componente, el aprendiz cualificará su participación en equipos de trabajo en el marco del desarrollo de software con la metodología Scrum. Se afianzará en agilidad y entrega de productos en iteraciones cortas de tiempo, simplificación de labores, roles Scrum, uso de artefactos Scrum y sabrá dar cuenta de los aspectos teóricos y conceptuales esta metodología.',
+      'El presente componente tiene como propósito establecer los principios básicos para la prestación del servicio de aseo urbano, sus componentes y elementos funcionales, las definiciones, los procedimientos generales que se deben tener en cuenta para el diseño de los sistemas de aseo y los procedimientos particulares para el desarrollo de éstos.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -23,20 +24,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Scrum, definición y características',
+        titulo: 'Barrido y lavado de vías',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Premisas Scrum',
+            titulo: 'Tipos de barrido y limpieza',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Entidades Scrum',
+            titulo: 'Tipos de recolección',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Actores involucrados',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Programación de actividades',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Actividades para tener en cuenta',
+            hash: 't_1_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Recursos',
+            hash: 't_1_6',
           },
         ],
       },
@@ -44,8 +69,52 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Ciclo de vida Scrum',
+        titulo: 'Micro y macro rutas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Diseño de macro rutas',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Diseño de micro rutas',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Diseño de rutas de barrido',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Horarios de recolección',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Frecuencias de recolección',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Divulgación de las rutas y horarios',
+            hash: 't_2_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.7',
+            titulo: 'Cumplimiento de las rutas',
+            hash: 't_2_7',
+          },
+        ],
       },
     ],
     subMenu: [

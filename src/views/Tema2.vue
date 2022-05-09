@@ -14,10 +14,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    modal1: false,
-    modal2: false,
-    modal3: false,
-    indicadorTarjetaFlip: true,
+    ///
   }),
   mounted() {
     this.$nextTick(() => {

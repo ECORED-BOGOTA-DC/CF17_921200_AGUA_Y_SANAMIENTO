@@ -82,7 +82,7 @@ export default {
         font-size: 2em
 
   &__descripcion
-    margin-bottom: 20px
+    margin-bottom: 30px
 
   &__row
     @if $banner-principal-img-x == 'derecha'
