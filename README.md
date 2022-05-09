@@ -1,8 +1,8 @@
 # **sena-base-2021 v5.1.0**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **CF17 - Tecnólogo Supervisión de sistemas de agua y saneamiento**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/921200_CF17_AGUA_Y_SANAMIENTO/](https://ecored-sena.github.io/921200_CF17_AGUA_Y_SANAMIENTO/)
 
 #
 
