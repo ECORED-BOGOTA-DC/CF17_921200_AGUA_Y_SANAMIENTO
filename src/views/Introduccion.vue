@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción                                        
       
-    .row.mb-5(data-aos="fade-right")
+    .row.mb-2(data-aos="fade-right")
       .col.col-12.col-lg-8.pt-5
         p Usualmente cada ciudad, municipio o región, en el desarrollo social y económico generan millones de residuos que son dispuestos en bolsas para que se realice la recolección de estos.
         .cajon.color-secundario.p-3.mb-3.col-12
