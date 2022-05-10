@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1  Ciclo de vida Scrum      
+      h1  Micro y macro rutas    
     
 
 </template>

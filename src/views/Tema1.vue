@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Scrum, definición y características
+      h1 Barrido y lavado de vías
 
     
 </template>
