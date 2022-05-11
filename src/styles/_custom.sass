@@ -80,3 +80,22 @@
     height: 189px
     background: linear-gradient(70deg, #FFFFFF 0%, #E1DDFF 80%)
     background-repeat: no-repeat
+
+.bg_color1
+  background-color: #FFFFFF
+
+.bg_fondo_2
+  position: relative
+  img, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute       
+    margin: 0 0rem
+    top: 1rem
+    left: 10%    
+    width: calc(100% + 6rem)
+    height: 96%
+    background: linear-gradient(0deg, #E4FDFC 0%, #E9DCFD 80%)
+    background-repeat: no-repeat
+  

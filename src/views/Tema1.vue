@@ -111,7 +111,7 @@
       .row.align-items-center(data-aos="zoom-in-up")
         .col-12.col-md-4
           figure.justify-center
-            img(src="@/assets/curso/tema1/img2.png")        
+            img(src="@/assets/curso/tema1/img2.png")
         .col-12.col-md-8
           p.m-0 Dentro de las primeras actividades que deben quedar definidas se encuentra la determinación del área de prestación de servicio la cual corresponde a la zona geográfica del municipio o distrito debidamente delimitada donde la persona prestadora ofrece y presta el servicio de aseo (Decreto 1077, 2015)<br><br/>De acuerdo con la CRA, en la resolución 709 (2015) estas áreas deben estar delimitadas bajo los denominados acuerdos de barrido y limpieza que son descritos en el artículo 53 del decreto 2981 (2013)
 
@@ -129,47 +129,140 @@
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/vec4.svg' alt='AvatarTop')
-            .tarjeta.color-primario
-              .text-white.p-4
-                h2.text-center John Doe
-                p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            .tarjeta.bg_color1
+              .p-4
+                p Área urbana con servicio de barrido en Ha (AUB)
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/vec5.svg' alt='AvatarTop')
-            .tarjeta.color-primario
-              .text-white.p-4
-                h2.text-center John Doe
-                p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            .tarjeta.bg_color1
+              .p-4
+                p Longitud de vías barridas manualmente al mes, expresada en kms/mes (LBMa)
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/vec6.svg' alt='AvatarTop')
-            .tarjeta.color-primario
-              .text-white.p-4
-                h2.text-center John Doe
-                p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            .tarjeta.bg_color1
+              .p-4
+                p Longitud de vías barridas mecánicamente al mes, expresada en kms/mes (LBMe)
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/vec7.svg' alt='AvatarTop')
-            .tarjeta.color-primario
-              .text-white.p-4
-                h2.text-center John Doe
-                p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            .tarjeta.bg_color1
+              .p-4
+                p Longitud total de vías barridas, expresada en Km/mes, equivale a la suma de la longitud de vías barridas manual y mecánicamente, expresada en Km/mes (LB) 
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/vec8.svg' alt='AvatarTop')
-            .tarjeta.color-primario
-              .text-white.p-4
-                h2.text-center John Doe
-                p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            .tarjeta.bg_color1
+              .p-4
+                p Longitud total de vías en el área urbana, expresada en Km (LTV)
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/vec9.svg' alt='AvatarTop')
-            .tarjeta.color-primario
-              .text-white.p-4
-                h2.text-center John Doe
-                p moment. K askdnaskjda sjkdn akjsndasd ajshd akjshd kajshd ask djhak sjdha ksjdha kjsdha kjsdha kjsdh akjshda kjshd aksjdh kajsd djkhakjshdka jsak Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
+            .tarjeta.bg_color1
+              .p-4
+                p Número de operarios de barrido empleados al mes (OB)
+    
+    ul.lista-ul.mb-4
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+        h3.ps-2 Condiciones generales de los acuerdos de barrido y limpieza   
+        
+    p.mb-5 Teniendo claro que estos acuerdos son para las personas y organizaciones prestadoras del servicio de aseo que confluyen en la misma área de servicio dentro de las acciones que deben ser tenidas en cuenta y son objeto de supervisión, se encuentran:
 
-          
+    .row 
+      .col-md-3
+        img.mb-5(src='@/assets/curso/tema1/img3.png')
+      .col-md-9
+        ol.lista-ol--cuadro
+          li
+            .lista-ol--cuadro__vineta
+              span 1
+            |	La responsabilidad de la actividad de barrido y limpieza estará dada en función del número de suscriptores del área de confluencia, de conformidad con lo señalado en el parágrafo 2 del artículo 52 del decreto 2981 de 2013. 
+          br
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            |	Las partes deben estar inscritas en el Registro Único de Prestadores de Servicios Públicos (RUPS) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD)
+          br
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            |	Un plano o mapa de localización en el que se delimite la(s) zona(s) geográfica(s) en donde se presta el servicio público de aseo en la actividad de recolección y transporte.
+          br
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            |	Descripción de macro y micro rutas de barrido en el área de confluencia.
+          br
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            |	Número total de suscriptores atendidos por cada persona prestadora del servicio público de aseo en la actividad de recolección y transporte en el área de confluencia en el periodo de producción de residuos sólidos inmediatamente anterior a la celebración del acuerdo, al cual se le deberá relacionar la dirección de todos los suscriptores del área de confluencia con los usuarios del maestro de facturación (Resolución 709, 2015, p.11)
+    separador 
+
+    #t_1_5.titulo-segundo.color-acento-contenido
+      h2 1.5.	Actores involucrados
+
+    p.mb-4 En el desarrollo de actividades para el servicio público se hace necesario especificar algunas actividades que son elementales:        
+   
+    ul.lista-ul.mb-4
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+        h3.ps-2 Barrido y limpieza de vías objeto de circulación
+
+    p.mb-5 En lugares públicos como vías de circulación de vehículos o de peatones, siempre se debe considerar que estas vías usualmente se encuentran pavimentadas, lo que se conoce como la calzada y las aceras, estas aceras siempre se encontraran un poco elevadas y separadas de la calzada.   
+
+    figure.col-md-8.col-12.center.mb-5
+      img.mb-5(src='@/assets/curso/tema1/img1.jpg')
+      figcaption Nota. Tomado de Facultad de ingeniería UNAM. (2002). División de educación continua. Cursos institucionales de barrido y recolección de residuos sólidos y municipales. México. [Figura]. p. 4
+
+    p.mb-4 La importancia de conocer esta estructura radica en el procedimiento para realizar el barrido:
+
+    .bg_fondo_2.mb-5
+      .row.align-items-center(data-aos="zoom-in-up")
+        .col-4.col-md-4
+          figure.justify-center
+            img(src="@/assets/curso/tema1/img4.png")
+        .col-8.col-md-8
+          ul.lista-ul
+            li 
+              i.fas.fa-angle-right
+              |	Usualmente no se requiere barrer la calzada completa, porque los residuos usualmente se acumulan, pero se transportan por el viento y el movimiento a las zonas laterales y se concentra en lo que se conoce como cunetas.
+            li 
+              i.fas.fa-angle-right
+              |	Se puede usar equipo mecanismo para agrupar residuos de partículas más pequeñas que puedan ser difícil de transportar a la cuneta por sí solas.
+            li 
+              i.fas.fa-angle-right
+              |	Con recolección manual, se puede barrer las zonas de la cuneta de las vías, agrupar y recoger, por lo general el barrido de las cunetas se hace en un ancho máximo de 0,60m siempre usando conos de indicación, para salvaguardar la vida del trabajador.
+            li 
+              i.fas.fa-angle-right
+              |	Recolección de residuos en alcantarillado, cuando se requiera succionar lodos o elementos no sólidos, se debe contar el equipo adecuado.
+            
+    ul.lista-ul.mb-4
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+        h3.ps-2 Limpieza de zonas comunes
+
+    .bg_fondo7
+      .row.justify-content-center.mb-4
+        .col-md-10
+          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema1/img2.jpg')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p le corresponde al prestador del servicio que fue asignado a una zona, realizar limpieza de playas, parques y ríos que encuentre y sean considerados de la ciudad o públicos siempre y cuando estos no estén normados a otras entidades para las acciones de limpieza.<br><br/>Dentro de estas zonas cuando aplique, se debe velar por la recolección de residuos, poda y limpieza general.
+
+    ul.lista-ul.mb-4
+      li 
+        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+        h3.ps-2 Recolección de residuos
+
+    p.mb-4 También se debe organizar y programar la recolección de residuos de los generadores de acuerdo con la normatividad vigente y a las indicaciones establecidas por la autoridad sobre la presentación y la gestión que se les debe realizar, dentro de esta recolección se debe garantizar que se realiza a los sectores de:
+
+
+
 
 </template>
 
