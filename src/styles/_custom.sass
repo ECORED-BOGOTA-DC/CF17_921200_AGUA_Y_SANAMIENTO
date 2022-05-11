@@ -57,3 +57,26 @@
 
 .linea-tiempo-d .tarjeta 
     background: linear-gradient(0deg, #EDEAFE 0%, #F6F9FE 100%)  
+
+.tarjeta--azul 
+  background-color: #DCF1FF
+  height: 233px
+  width: 945px
+  @media screen and (max-width: 1400px)        
+    height: auto
+    width: auto
+
+.bg_fondo_1
+  position: relative
+  img, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute       
+    margin: 0 0rem
+    top: 2rem
+    left: 10%
+    width: calc(100% + 6rem)
+    height: 189px
+    background: linear-gradient(70deg, #FFFFFF 0%, #E1DDFF 80%)
+    background-repeat: no-repeat
