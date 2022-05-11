@@ -259,10 +259,47 @@
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Recolección de residuos
 
-    p.mb-4 También se debe organizar y programar la recolección de residuos de los generadores de acuerdo con la normatividad vigente y a las indicaciones establecidas por la autoridad sobre la presentación y la gestión que se les debe realizar, dentro de esta recolección se debe garantizar que se realiza a los sectores de:
+    p.mb-5 También se debe organizar y programar la recolección de residuos de los generadores de acuerdo con la normatividad vigente y a las indicaciones establecidas por la autoridad sobre la presentación y la gestión que se les debe realizar, dentro de esta recolección se debe garantizar que se realiza a los sectores de:
 
+    .row.mb-5
+      .col-md-3.mb-4
+        img(src='@/assets/curso/tema1/img5.png' alt='AvatarTop')
+        h5.bg-suave.text-center.p-4.text-white Sector comercial
+      .col-md-3.mb-4
+        img(src='@/assets/curso/tema1/img6.png' alt='AvatarTop')
+        h5.bg-suave.text-center.p-4.text-white Sector residencial
+      .col-md-3.mb-4
+        img(src='@/assets/curso/tema1/img7.png' alt='AvatarTop')
+        h5.bg-suave.text-center.p-4.text-white Sector Industrial
+      .col-md-3.mb-4
+        img(src='@/assets/curso/tema1/img8.png' alt='AvatarTop')
+        h5.bg-suave.text-center.p-4.text-white Sector público
+    separador
 
+    #t_1_6.titulo-segundo.color-acento-contenido
+      h2 1.6.	Recursos
 
+    p.mb-5 Para la ejecución correcta de las actividades se debe realizar una asignación de recursos dentro de los cuales se puede mencionar: 
+
+    ImagenInfografica.color-acento-botones.mb-5
+      template(v-slot:imagen)
+        figure.col-md-10.mb-5.center
+          img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')
+      .tarjeta.bg-amarillo-claro.p-4(x="17.4%" y="8%" numero="1")
+        p <b>Recurso humano</b>  
+        span Se debe contar con personal capacitado para la realización de las actividades puntuales, en este caso se puede mencionar barredores de calles, conductores y colectores en vehículos compactadores y de recolección, operario de la máquina barredora, operarios de separación o disposición de residuos, supervisiones de cuadrillas (equipos de trabajo por zona) entre otros. 
+
+      .tarjeta.bg-amarillo-claro.p-4(x="38.8%" y="91.7%" numero="2")
+        p  <b>Recurso tecnológico</b>  
+        span En lo posible es importante dotar a los empleados o personas que realizan estas actividades de equipos tecnológicos como GPS o tabletas para que registren las rutas o reporten cualquier dificultad o novedad en el servicio en tiempo real a la empresa. 
+
+      .tarjeta.bg-amarillo-claro.p-4(x="60.6%" y="8.2%" numero="3")
+        p <b>Materiales y equipo</b>  
+        span Dentro de los materiales y equipos a utilizar, se debe caracterizar la extensión de las zonas y el tipo de barrido a usar, con el fin de asignar a cada equipo de trabajo los elementos necesarios para la ejecución de la actividad, dentro de ellos se encuentra, balanzas de pesaje (preferiblemente digitales) bolsas según clasificación de la autoridad competente, escobas, recogedores, practiwagones, recipientes o contenedores, cajas estacionarias, máquina barredora, palas, entre otros.<br><br/>Dentro de este ítem también se encuentran los elementos especializados para la recolección como vehículos compactadores, vehículos con sistemas levantadores, compactadores de residuos estacionarios, maquinaria embaladora para reciclables, equipos de succión y cámaras para mantenimiento de alcantarillados, desintegradores y trituradores, entre otros.
+
+      .tarjeta.bg-amarillo-claro.p-4(x="82.5%" y="91.8%" numero="4")
+        p <b>Elementos de protección personal</b>  
+        span Siempre amparados en la normatividad legal vigente se debe otorgar a los empleados o personas que realizarán las actividades los elementos de protección individual que sean necesarios dependiendo de los residuos o actividades de limpieza y aseo que se vayan a ejecutar, dentro de los cuales se contempla, botas, guantes, gafas, casco, tapabocas, overoles entre otros.<br><br/>Dentro de los elementos también se debe garantizar, la señalización requerida para salvaguardar a las personas, dentro de ellas se encuentra conos de señal de precaución, señales móviles de personal trabajando, chalecos reflectivos entre otros.
 
 </template>
 
