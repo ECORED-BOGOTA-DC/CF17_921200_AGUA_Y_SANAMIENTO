@@ -293,13 +293,17 @@
         p  <b>Recurso tecnológico</b>  
         span En lo posible es importante dotar a los empleados o personas que realizan estas actividades de equipos tecnológicos como GPS o tabletas para que registren las rutas o reporten cualquier dificultad o novedad en el servicio en tiempo real a la empresa. 
 
-      .tarjeta.bg-amarillo-claro.p-4(x="59.5%" y="8.2%" numero="3")
+      .tarjeta.bg-amarillo-claro.p-3(x="59.5%" y="8.2%" numero="3")
         p <b>Materiales y equipo</b>  
         span Dentro de los materiales y equipos a utilizar, se debe caracterizar la extensión de las zonas y el tipo de barrido a usar, con el fin de asignar a cada equipo de trabajo los elementos necesarios para la ejecución de la actividad, dentro de ellos se encuentra, balanzas de pesaje (preferiblemente digitales) bolsas según clasificación de la autoridad competente, escobas, recogedores, practiwagones, recipientes o contenedores, cajas estacionarias, máquina barredora, palas, entre otros.<br><br/>Dentro de este ítem también se encuentran los elementos especializados para la recolección como vehículos compactadores, vehículos con sistemas levantadores, compactadores de residuos estacionarios, maquinaria embaladora para reciclables, equipos de succión y cámaras para mantenimiento de alcantarillados, desintegradores y trituradores, entre otros.
 
       .tarjeta.bg-amarillo-claro.p-4(x="79.2%" y="91.8%" numero="4")
         p <b>Elementos de protección personal</b>  
         span Siempre amparados en la normatividad legal vigente se debe otorgar a los empleados o personas que realizarán las actividades los elementos de protección individual que sean necesarios dependiendo de los residuos o actividades de limpieza y aseo que se vayan a ejecutar, dentro de los cuales se contempla, botas, guantes, gafas, casco, tapabocas, overoles entre otros.<br><br/>Dentro de los elementos también se debe garantizar, la señalización requerida para salvaguardar a las personas, dentro de ellas se encuentra conos de señal de precaución, señales móviles de personal trabajando, chalecos reflectivos entre otros.
+
+
+
+
 
 </template>
 

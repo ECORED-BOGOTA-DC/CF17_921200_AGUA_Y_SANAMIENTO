@@ -188,6 +188,44 @@
     #t_2_4.titulo-segundo.color-acento-contenido
       h2 2.4.	Horarios de recolección
 
+    .row
+      .col-md-4
+        img(src='@/assets/curso/tema2/vec3.svg', alt='Texto que describa la imagen')
+      .col-md-8
+        .cajon-b.color-primario.p-3.mb-5
+          p.mb-0 De acuerdo con el RAS título F (2012) para mejorar la calidad del servicio se deben tener en cuenta las cantidades de residuos que se generan, las características de cada zona, la jornada de trabajo, el clima, la capacidad de los equipos, las dificultades generadas por el tráfico vehicular o peatonal y cualquier otro elemento que pueda tener influencia y teniendo eso en cuenta se establecen los horarios de recolección.<br><br/>Establecer y cumplir los horarios de recolección y de barrido es una obligación por parte del prestador del servicio de aseo de acuerdo con lo establecido en el artículo 32 del decreto 2981 (2013)<br><br/>Es importante resaltar que se debe tener especial cuidado cuando la recolección se efectúe entre las 21:00 horas y las 06:00 horas del día siguiente en zonas residenciales, hoteles, hospitales, clínicas y demás centros asistenciales ya que en estos casos deberán tomarse medidas especiales para mitigar el ruido en la recolección y la compactación.
+    separador
+
+    #t_2_5.titulo-segundo.color-acento-contenido
+      h2 2.5.	Frecuencias de recolección
+
+    p.mb-5 De acuerdo con la presidencia de la república en su decreto 2981 (2013) Por el cual se reglamenta la prestación del servicio público de aseo. La frecuencia de recolección es el número de veces en un periodo definido que se presta el servicio.
+
+    .bg_grad-04
+      .row.justify-content-center.my-5.p-5.correr-izq.correr-der
+        .row.justify-content-center.align-items-center
+          .col-xxl-4.col-lg-3.col-md-4.col-xl-4
+            h5.margen-texto De acuerdo con el RAS título F (2012) la frecuencia de recolección depende del nivel de complejidad del sistema, así como ciertas restricciones que se presentan a continuación:
+
+          .col-lg-4.mb-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+              .tarjeta1.bg_color3
+                .p-4
+                  h5 Nivel de complejidad bajo y medio:
+                  p la recolección de los residuos sólidos obtenidos en el proceso de barrido de vías y limpieza de áreas públicas, podrán realizarse simultáneamente con las frecuencias de recolección de los residuos presentados por los usuarios del servicio ordinario.
+
+          .col-lg-4.mb-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+              .tarjeta1.bg_color3
+                .p-4
+                  h5 Nivel de complejidad medio alto y alto: 
+                  p las frecuencias de recolección deberán ser diseñadas en forma separada, procurando que los residuos producto del barrido manual y mecánico de vías y limpieza de áreas públicas puedan ser transportadas al sitio de disposición final sin ser mezclados con los residuos presentados por los usuarios del servicio de aseo.
+         
+      p.mb-4 Adicional al nivel de complejidad, también se debe tener en cuenta la temperatura del municipio ya que esta se asocia con el ciclo reproductivo de la mosca y con la volatilización de compuestos generadores de olores ofensivos.
+
+
 </template>
 
 <script>
