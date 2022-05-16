@@ -108,8 +108,8 @@
 .bg-amarillo-claro
   background: linear-gradient(0deg, #D5D3E6 0%, #EDECF8 80%)
   height: auto
-  width: 330px
-  padding: 20px
+  width: 500px
+  padding: 15px
   @media screen and (max-width: 1400px)        
     height: auto
     width: auto
@@ -193,3 +193,43 @@
   @media screen and (max-width: 1400px)        
     height: auto
     width: auto
+
+.bg_fondo_3
+  position: relative
+  img, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute       
+    margin: 0 0rem
+    top: 4rem
+    left: 15%
+    width: calc(100% + 6rem)
+    height: 300px
+    background: linear-gradient(70deg, #D6D0FC 0%, #D6D0FC 80%)
+    background-repeat: no-repeat
+    @media screen and (max-width: 1400px)        
+      content: ''
+      position: absolute       
+      margin: 0 0rem
+      top: 0rem
+      left: 0%
+      width: calc(100% + 0rem)
+      height: 450px
+      background: linear-gradient(70deg, #D6D0FC 0%, #D6D0FC 80%)
+      background-repeat: no-repeat
+    @media screen and (max-width: 760px)        
+      content: ''
+      position: absolute       
+      margin: 0 0rem
+      top: 6rem
+      left: 0%
+      width: calc(100% + 0rem)
+      height: 880px
+      background: linear-gradient(70deg, #D6D0FC 0%, #D6D0FC 80%)
+      background-repeat: no-repeat
+
+.arri1
+  margin-top: 22px
+  @media screen and (max-width: 1400px)        
+    margin-top: 0px

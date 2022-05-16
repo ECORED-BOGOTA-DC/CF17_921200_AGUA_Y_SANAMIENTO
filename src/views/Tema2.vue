@@ -224,7 +224,116 @@
                   p las frecuencias de recolección deberán ser diseñadas en forma separada, procurando que los residuos producto del barrido manual y mecánico de vías y limpieza de áreas públicas puedan ser transportadas al sitio de disposición final sin ser mezclados con los residuos presentados por los usuarios del servicio de aseo.
          
       p.mb-4 Adicional al nivel de complejidad, también se debe tener en cuenta la temperatura del municipio ya que esta se asocia con el ciclo reproductivo de la mosca y con la volatilización de compuestos generadores de olores ofensivos.
+    
 
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 1.
+      span Frecuencia de recolección mínima
+    .tabla-a.color-acento-contenido.mb-5 
+      table
+        caption Nota. Tomado de Ministerio de Vivienda, Ciudad y Territorio. (2012) Reglamento técnico del sector de Agua potable y Saneamiento básico (RAS) título F. Sistemas de Aseo Urbano. [Tabla] (p. 68). 
+        thead
+          tr
+            th Nivel de complejidad
+            th Temperatura
+            th Frecuencias de recolección mínimas (Veces/Semana)
+              tr
+                th De residuos presentados por los suscriptores 
+                th De residuos producto del barrido de vías y limpieza de áreas públicas
+        tbody
+          tr
+            td Bajo
+            td Indiferente
+            td 2 simultáneamente
+          tr
+            td Medio
+            td Indiferente
+            td 2 simultáneamente
+          tr
+            td Medio Alto
+            td
+              tr Mayor o igual a 22ºC
+              tr Menor de 22ºC
+            td
+              tr 
+                td 3
+                td 1
+              tr
+                td 2
+                td 1
+          tr
+            td Alto*
+            td
+              tr Mayor o igual a 22ºC
+              tr Menor de 22ºC
+            td
+                tr 
+                  td 3
+                  td 1
+                tr
+                  td 2
+                  td 1*
+
+    p.mb-5 Todo cambio en las rutas, frecuencias y horarios debe ser notificado con anterioridad de mínimo 5 días a los usuarios atendidos. Si el día propuesto de recolección es festivo y la empresa de recolección no labora en ese día, ésta deberá diseñar un plan de contingencia de modo que la recolección se normalice en los siguientes 2 días.
+    separador
+
+    #t_2_6.titulo-segundo.color-acento-contenido
+      h2 2.6.	Divulgación de las rutas y horarios   
+
+    .bg_fondo_3.mb-4
+      .row.align-items-center(data-aos="zoom-in-up")
+        .col-12.col-md-4
+          figure.arri1
+            img(src="@/assets/curso/tema2/vec4.svg" style= "height: 450px")
+        .col-12.col-md-8
+          p.p-2 Los usuarios como parte activan del sistema de aseo de cualquier municipio deben estar informados sobre las rutas y horarios que ejecutará el prestador del servicio, por esta razón en el artículo 34 del decreto 2981 (2013) se establece la responsabilidad del prestador del servicio en divulgar rutas, horarios y frecuencia de recolección y barrido las cuales deberán darse a conocer a los usuarios, utilizando medios masivos de difusión de amplia circulación local.<br><br/>En las facturas de cobro del servicio público de aseo, deberá informarse las frecuencias de las diferentes actividades de recolección del servicio. El prestador del servicio deberá publicar en la página web las rutas y horarios de prestación de las diferentes actividades de recolección del servicio. 
+    separador 
+
+    #t_2_7.titulo-segundo.color-acento-contenido
+      h2 2.7.	Cumplimiento de las rutas
+
+    p.mb-5 En el cumplimiento de las rutas se deben tener presentes los siguientes aspectos:
+
+    .row.justify-content-end.align-items-center
+      .col-md-5
+        figure
+          img.d-none.d-lg-block(src="@/assets/curso/tema2/vec5.svg")
+      .col-md-7
+        figure
+          img.img549.mb-4(src="@/assets/curso/tema2/img26.svg")
+        .row.align-items-center
+          .col-md-2
+            figure
+              img.img-a.img-t.mb-2(src='@/assets/curso/tema2/circulo1.svg' style= "height: 60px")
+          .col-md-9
+            p.m-0 La calidad de la prestación del servicio depende de la continuidad y la cobertura, con el fin de mejorar la percepción que el usuario tiene sobre el prestador del servicio se deben cumplir a cabalidad las rutas y horarios pactados en los contratos.
+          figure.mt-4
+            img.img549.mb-4(src="@/assets/curso/tema2/img26.svg")
+        .row.align-items-center               
+          .col-md-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/tema2/circulo2.svg' style= "height: 60px")
+          .col-md-9
+            p.m-0 Es posible que se generen cambios en la ruta, el horario o la frecuencia debido a situaciones internas (avería mecánica en los camiones de recolección) o externas (mantenimiento en malla vial) Todo cambio en las rutas, horarios o frecuencias deberá ser comunicado con tres (3) días de anterioridad a los usuarios afectados, salvo caso fortuito o de fuerza mayor, utilizando medios masivos de difusión de amplia circulación local y página web cuando se disponga de ella.
+          figure.mt-4
+            img.img549.mb-4(src="@/assets/curso/tema2/img26.svg")
+        .row.align-items-center.mb-4               
+          .col-md-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/tema2/circulo3.svg' style= "height: 60px")
+          .col-md-9
+            p.m-0 En caso de fallas internas dentro del prestador del servicio como el ejemplo de presentarse averías en un vehículo del servicio, deberá enviar el auxilio mecánico o reemplazarlo con el equipo de suplencia, el servicio se debe restablecer en un término máximo de tres (3) horas a partir del momento en que se presente la avería. Sólo podrá suspenderse el servicio por motivos de fuerza mayor o caso fortuito, debidamente comprobados.
+          figure.mt-4
+            img.img549.mb-4(src="@/assets/curso/tema2/img26.svg")
+        .row.align-items-center.mb-4               
+          .col-md-2
+            figure
+              img.img-a.img-t(src='@/assets/curso/tema2/circulo4.svg' style= "height: 60px")
+          .col-md-9
+            p.m-0 Incluso cuando se presente un caso de fuerza mayor la empresa prestadora del servicio público de aseo deberá implementar las medidas para restablecer el servicio en el menor tiempo posible. 
+          figure.mt-4
+            img.img549.mb-4(src="@/assets/curso/tema2/img26.svg")
+  
 
 </template>
 
