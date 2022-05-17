@@ -209,7 +209,7 @@
 
           .col-lg-4.mb-3
             .tarjeta-avatar
-              img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
               .tarjeta1.bg_color3
                 .p-4
                   h5 Nivel de complejidad bajo y medio:
@@ -217,7 +217,7 @@
 
           .col-lg-4.mb-3
             .tarjeta-avatar
-              img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop')
               .tarjeta1.bg_color3
                 .p-4
                   h5 Nivel de complejidad medio alto y alto: 

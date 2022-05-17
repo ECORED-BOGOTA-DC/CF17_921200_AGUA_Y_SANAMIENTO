@@ -78,11 +78,13 @@
     left: 10%
     width: calc(100% + 6rem)
     height: 189px
-    background: linear-gradient(70deg, #FFFFFF 0%, #E1DDFF 80%)
+    background: linear-gradient(70deg, #FFFFFF, #EBE8FF )
     background-repeat: no-repeat
 
 .bg_color1
   background-color: #FFFFFF
+  height: 250px
+  border-radius: 20px
 
 .bg_fondo_2
   position: relative
@@ -233,3 +235,38 @@
   margin-top: 22px
   @media screen and (max-width: 1400px)        
     margin-top: 0px
+
+.bg_grad-05
+  position: relative
+  ul.lista-ul, figure, .row, .tarjeta, p, li, img, slyderf,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -20px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/fondo2.svg")
+    background-repeat: no-repeat
+
+.tarjeta-avatar .tarjeta2 
+  display: inline-block;
+  padding-top: 0px !important;
+  border-radius: 20px
+  height: 230px
+  width: 250px
+  @media screen and (max-width: 1400px)        
+    height: auto
+    width: auto
+
+.tarjeta-avatar > img 
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+

@@ -14,7 +14,7 @@
     separador 
 
     #t_1_1.titulo-segundo.color-acento-contenido
-      h2(data-aos="zoom-in") 1.1 Caso de estudio de la automatización
+      h2(data-aos="zoom-in") 1.1 Tipos de barrido y limpieza
     
     p.mb-5 Para realizar el proceso de barrido y limpieza existen dos formas de realizar dicha actividad de acuerdo con el Decreto 1077 (2015)
 
@@ -57,23 +57,23 @@
         LineaTiempoD.color-acento-contenido.mb-5
           .row(numero="1" titulo="Generador o usuario residencial")
             .col-md-12.mb-4.mb-md-0.px-4
-              p.mt-4 Es una tarea que exige un proceso explícito, debe incluir cambio en procesos académicos, fortalecimiento de gremios, fortalecimiento de entidades territoriales, coordinación con la población, prestadores y aseguradores. Para tener resultados a corto plazo se realizan acciones de formación continua que ayuda a mejorar el servicio de salud principalmente en el nivel primario. A mediano plazo se abren programas de especializaciones y posgrados en medicina y salud familiar, también se forman médicos en diferentes territorios del país. A largo plazo se ajustan planes curriculares de formación de recurso humano en el sector salud y se evalúan la calidad y pertinencia de esos programas para el mejoramiento continuo.  
+              p.mt-4 Son todas las personas que pueden estar organizadas como multiusuarios o como personas independientes que presentan residuos para que sean recolectados por el servicio público de aseo de su territorio.
 
           .row(numero="2" titulo="Usuario no residencial")
             .col-md-12.mb-4.mb-md-0.px-4
-              p.mt-4 Con el esquema de cuidado integral y provisión de servicios: se desarrollan equipos multidisciplinarios en salud y se diseñan nuevos perfiles como promotores de salud, parteras, líderes comunitarios entre otros, de modo que se genere un desarrollo progresivo en los modelos territoriales de salud, de acuerdo con las orientaciones del Modelo Integral de Atención en Salud (MIAS).
+              p.mt-4 Es la persona natural o jurídica que produce residuos sólidos derivados de la actividad comercial, industrial y los oficiales que se benefician con la prestación del servicio público de aseo.
 
           .row(numero="3" titulo="Persona prestadora del servicio público de aseo")
             .col-md-12.mb-4.mb-md-0.px-4
-              p.mt-4 Responsable de la planeación y gestión territorial en salud: es la definición participativa de las competencias que exige la implementación del Modelo Integral de Atención en Salud (MIAS) a nivel de la administración, gestión, gerencia y planeación en salud.
+              p.mt-4 Es aquella encargada de una o varias actividades de la prestación del servicio público de aseo, en los términos del artículo 15 de la Ley 142 de 1994 y demás que la modifiquen o complementen (Decreto 1077, 2015).
 
           .row(numero="4" titulo="Recicladores de oficio y las organizaciones de recicladores de oficio")
             .col-md-12.mb-4.mb-md-0.px-4
-              p.mt-4 Planificación y mejoramiento de condiciones laborales del Recurso Humano en Salud (RHS) a nivel nacional y territorial.
+              p.mt-4 Personas prestadoras de la actividad de aprovechamiento en el servicio público de aseo, para todo el territorio nacional (Decreto 596, 2016).
     separador 
 
     #t_1_4.titulo-segundo.color-acento-contenido
-      h2 1.4.	Actores involucrados
+      h2 1.4.	Programación de actividades
 
     p.mb-5 Teniendo en cuenta que en un mismo sector pueden existir diferentes prestadores del servicio de aseo, la programación de actividades debe ser conforme a la normatividad legal vigente buscando que no se generen actividades de recolección, barrido o limpieza duplicadas en un mismo sector y así garantizar la buena competencia entre las empresas.
 
@@ -102,111 +102,112 @@
     
     p.mb-5 Además de esto indica que La Comisión de Regulación de Agua Potable y Saneamiento Básico (CRA) determinará la metodología de cálculo de los kilómetros a barrer por cada prestador en función del número de usuarios que cada uno atienda en el área de confluencia.<br><br/> Bajo esa premisa siempre se debe verificar la base normativa que brinde la CRA respecto a la metodología, ya que esta también determina actividades que serán necesarias llevar a cabo por las empresas prestadores de servicios de aseo y limpieza.
     
-    ul.lista-ul.mb-4
-      li 
-        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
-        h3.ps-2 Determinación del área de prestación del servicio
-    
-    .bg_fondo_1.mb-4
-      .row.align-items-center(data-aos="zoom-in-up")
-        .col-12.col-md-4
-          figure.justify-center
-            img(src="@/assets/curso/tema1/img2.png")
-        .col-12.col-md-8
-          p.m-0 Dentro de las primeras actividades que deben quedar definidas se encuentra la determinación del área de prestación de servicio la cual corresponde a la zona geográfica del municipio o distrito debidamente delimitada donde la persona prestadora ofrece y presta el servicio de aseo (Decreto 1077, 2015)<br><br/>De acuerdo con la CRA, en la resolución 709 (2015) estas áreas deben estar delimitadas bajo los denominados acuerdos de barrido y limpieza que son descritos en el artículo 53 del decreto 2981 (2013)
+    .bg_grad-05
+      ul.lista-ul.mb-4
+        li 
+          <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+          h3.ps-2 Determinación del área de prestación del servicio
+      
+      .bg_fondo_1.mb-4
+        .row.align-items-center(data-aos="zoom-in-up")
+          .col-12.col-md-4
+            figure.justify-center
+              img(src="@/assets/curso/tema1/img2.png")
+          .col-12.col-md-8
+            p.m-0 Dentro de las primeras actividades que deben quedar definidas se encuentra la determinación del área de prestación de servicio la cual corresponde a la zona geográfica del municipio o distrito debidamente delimitada donde la persona prestadora ofrece y presta el servicio de aseo (Decreto 1077, 2015)<br><br/>De acuerdo con la CRA, en la resolución 709 (2015) estas áreas deben estar delimitadas bajo los denominados acuerdos de barrido y limpieza que son descritos en el artículo 53 del decreto 2981 (2013)
 
-    p.mb-5 Las personas prestadoras deberán suscribir acuerdos, de barrido y limpieza en los que se determinen las vías y áreas públicas que cada persona prestadora vaya a atender en el respectivo municipio, sin perjuicio de que en el mismo acuerdo se convenga que solo uno de ellos sea quien atiende la totalidad del área. En los mismos acuerdos se podrá establecer la forma de remunerarse entre los prestadores de las mencionadas actividades.
+      p.mb-5 Las personas prestadoras deberán suscribir acuerdos, de barrido y limpieza en los que se determinen las vías y áreas públicas que cada persona prestadora vaya a atender en el respectivo municipio, sin perjuicio de que en el mismo acuerdo se convenga que solo uno de ellos sea quien atiende la totalidad del área. En los mismos acuerdos se podrá establecer la forma de remunerarse entre los prestadores de las mencionadas actividades.
 
-    ul.lista-ul.mb-4
-      li 
-        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
-        h3.ps-2 Componentes de barrido y limpieza
+      ul.lista-ul.mb-4
+        li 
+          <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+          h3.ps-2 Componentes de barrido y limpieza
 
-    .row.justify-content-center.align-items-center
-      .col-md-3
-        p <b>Dentro de los elementos que se hace necesario tener en cuenta para programar las actividades de barrido y limpieza se encuentran según la resolución 709 (2015)</b>
-      .col-md-9
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/vec4.svg' alt='AvatarTop')
-            .tarjeta.bg_color1
-              .p-4
-                p Área urbana con servicio de barrido en Ha (AUB)
+      .row.align-items-center
+        .col-md-3
+          p <b>Dentro de los elementos que se hace necesario tener en cuenta para programar las actividades de barrido y limpieza se encuentran según la resolución 709 (2015)</b>
+        .col-md-9
+          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/vec4.svg' alt='AvatarTop')
+              .tarjeta2.bg_color1
+                .p-4
+                  p.mt-5.me-0 Área urbana con servicio de barrido en Ha (AUB)
 
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/vec5.svg' alt='AvatarTop')
-            .tarjeta.bg_color1
-              .p-4
-                p Longitud de vías barridas manualmente al mes, expresada en kms/mes (LBMa)
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/vec5.svg' alt='AvatarTop')
+              .tarjeta2.bg_color1
+                .p-4
+                  p.mt-5.me-0 Longitud de vías barridas manualmente al mes, expresada en kms/mes (LBMa)
 
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/vec6.svg' alt='AvatarTop')
-            .tarjeta.bg_color1
-              .p-4
-                p Longitud de vías barridas mecánicamente al mes, expresada en kms/mes (LBMe)
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/vec6.svg' alt='AvatarTop')
+              .tarjeta2.bg_color1
+                .p-4
+                  p.mt-5.me-0 Longitud de vías barridas mecánicamente al mes, expresada en kms/mes (LBMe)
 
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/vec7.svg' alt='AvatarTop')
-            .tarjeta.bg_color1
-              .p-4
-                p Longitud total de vías barridas, expresada en Km/mes, equivale a la suma de la longitud de vías barridas manual y mecánicamente, expresada en Km/mes (LB) 
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/vec7.svg' alt='AvatarTop')
+              .tarjeta2.bg_color1
+                .p-4
+                  p.mt-3.me-0 Longitud total de vías barridas, expresada en Km/mes, equivale a la suma de la longitud de vías barridas manual y mecánicamente, expresada en Km/mes (LB) 
 
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/vec8.svg' alt='AvatarTop')
-            .tarjeta.bg_color1
-              .p-4
-                p Longitud total de vías en el área urbana, expresada en Km (LTV)
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/vec8.svg' alt='AvatarTop')
+              .tarjeta2.bg_color1
+                .p-4
+                  p.mt-5.me-0 Longitud total de vías en el área urbana, expresada en Km (LTV)
 
-          .tarjeta-avatar
-            img(src='@/assets/curso/tema1/vec9.svg' alt='AvatarTop')
-            .tarjeta.bg_color1
-              .p-4
-                p Número de operarios de barrido empleados al mes (OB)
-    
-    ul.lista-ul.mb-4
-      li 
-        <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
-        h3.ps-2 Condiciones generales de los acuerdos de barrido y limpieza   
-        
-    p.mb-5 Teniendo claro que estos acuerdos son para las personas y organizaciones prestadoras del servicio de aseo que confluyen en la misma área de servicio dentro de las acciones que deben ser tenidas en cuenta y son objeto de supervisión, se encuentran:
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/vec9.svg' alt='AvatarTop')
+              .tarjeta2.bg_color1
+                .p-4
+                  p.mt-5.me-0 Número de operarios de barrido empleados al mes (OB)
+      
+      ul.lista-ul.mb-4
+        li 
+          <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
+          h3.ps-2 Condiciones generales de los acuerdos de barrido y limpieza   
+          
+      p.mb-5 Teniendo claro que estos acuerdos son para las personas y organizaciones prestadoras del servicio de aseo que confluyen en la misma área de servicio dentro de las acciones que deben ser tenidas en cuenta y son objeto de supervisión, se encuentran:
 
-    .row 
-      .col-md-3
-        img.mb-5(src='@/assets/curso/tema1/img3.png')
-      .col-md-9
-        ol.lista-ol--cuadro
-          li
-            .lista-ol--cuadro__vineta
-              span 1
-            |	La responsabilidad de la actividad de barrido y limpieza estará dada en función del número de suscriptores del área de confluencia, de conformidad con lo señalado en el parágrafo 2 del artículo 52 del decreto 2981 de 2013. 
-          br
-          li 
-            .lista-ol--cuadro__vineta
-              span 2
-            |	Las partes deben estar inscritas en el Registro Único de Prestadores de Servicios Públicos (RUPS) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD)
-          br
-          li 
-            .lista-ol--cuadro__vineta
-              span 3
-            |	Un plano o mapa de localización en el que se delimite la(s) zona(s) geográfica(s) en donde se presta el servicio público de aseo en la actividad de recolección y transporte.
-          br
-          li 
-            .lista-ol--cuadro__vineta
-              span 4
-            |	Descripción de macro y micro rutas de barrido en el área de confluencia.
-          br
-          li 
-            .lista-ol--cuadro__vineta
-              span 5
-            |	Número total de suscriptores atendidos por cada persona prestadora del servicio público de aseo en la actividad de recolección y transporte en el área de confluencia en el periodo de producción de residuos sólidos inmediatamente anterior a la celebración del acuerdo, al cual se le deberá relacionar la dirección de todos los suscriptores del área de confluencia con los usuarios del maestro de facturación (Resolución 709, 2015, p.11)
+      .row 
+        .col-md-3
+          img.mb-5(src='@/assets/curso/tema1/img3.png')
+        .col-md-9
+          ol.lista-ol--cuadro
+            li
+              .lista-ol--cuadro__vineta
+                span 1
+              |	La responsabilidad de la actividad de barrido y limpieza estará dada en función del número de suscriptores del área de confluencia, de conformidad con lo señalado en el parágrafo 2 del artículo 52 del decreto 2981 de 2013. 
+            br
+            li 
+              .lista-ol--cuadro__vineta
+                span 2
+              |	Las partes deben estar inscritas en el Registro Único de Prestadores de Servicios Públicos (RUPS) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD)
+            br
+            li 
+              .lista-ol--cuadro__vineta
+                span 3
+              |	Un plano o mapa de localización en el que se delimite la(s) zona(s) geográfica(s) en donde se presta el servicio público de aseo en la actividad de recolección y transporte.
+            br
+            li 
+              .lista-ol--cuadro__vineta
+                span 4
+              |	Descripción de macro y micro rutas de barrido en el área de confluencia.
+            br
+            li 
+              .lista-ol--cuadro__vineta
+                span 5
+              |	Número total de suscriptores atendidos por cada persona prestadora del servicio público de aseo en la actividad de recolección y transporte en el área de confluencia en el periodo de producción de residuos sólidos inmediatamente anterior a la celebración del acuerdo, al cual se le deberá relacionar la dirección de todos los suscriptores del área de confluencia con los usuarios del maestro de facturación (Resolución 709, 2015, p.11)
     separador 
 
     #t_1_5.titulo-segundo.color-acento-contenido
-      h2 1.5.	Actores involucrados
+      h2 1.5.	Actividades para tener en cuenta
 
-    p.mb-4 En el desarrollo de actividades para el servicio público se hace necesario especificar algunas actividades que son elementales:        
+    p.mb-5 En el desarrollo de actividades para el servicio público se hace necesario especificar algunas actividades que son elementales:        
    
-    ul.lista-ul.mb-4
+    ul.lista-ul.mb-5
       li 
         <i class="fas fa-circle fa-xs" style= "color:#009EE3 !important;"></i>
         h3.ps-2 Barrido y limpieza de vías objeto de circulación
