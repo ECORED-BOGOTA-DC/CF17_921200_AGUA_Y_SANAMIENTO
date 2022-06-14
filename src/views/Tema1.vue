@@ -26,11 +26,11 @@
           .tarjeta.color.bg_color7(data-aos="zoom-in-up")
             .p-3
             .row.justify-content-center
-              .col-md-3.px-5.align-self-center
+              .col-md-3.col-8.px-5.align-self-center
                 figure
                   img(src="@/assets/curso/tema1/img1.svg")
               .col-md-8.align-self-center
-                p.m-0 Para ampliar la información sobre la normatividad aplicable debe consultar el Decreto 1077 (2015) sector vivienda, ciudad y territorio, título 2 servicio público de aseo, que se encuentra en el material complementario.
+                p.m-0.p-4 Para ampliar la información sobre la normatividad aplicable debe consultar el Decreto 1077 (2015) sector vivienda, ciudad y territorio, título 2 servicio público de aseo, que se encuentra en el material complementario.
             .row.justify-content-center
               .col-12.col-md-11
                 figure
@@ -53,7 +53,7 @@
     p.mb-5 Dentro de las personas involucradas en las actividades de servicio público de aseo es importante referenciar los principales:
 
     .row.justify-content-center
-      .col-md-10
+      .col-md-7
         LineaTiempoD.color-acento-contenido.mb-5
           .row(numero="1" titulo="Generador o usuario residencial")
             .col-md-12.mb-4.mb-md-0.px-4
@@ -70,6 +70,10 @@
           .row(numero="4" titulo="Recicladores de oficio y las organizaciones de recicladores de oficio")
             .col-md-12.mb-4.mb-md-0.px-4
               p.mt-4 Personas prestadoras de la actividad de aprovechamiento en el servicio público de aseo, para todo el territorio nacional (Decreto 596, 2016).
+      .col-md-4
+        figure.py-4
+          img(src='@/assets/curso/tema1/vec10.svg')
+    
     separador 
 
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -222,10 +226,10 @@
 
     .bg_fondo_2.mb-5
       .row.align-items-center(data-aos="zoom-in-up")
-        .col-4.col-md-4
+        .col-8.col-md-4.mb-2
           figure.justify-center
             img(src="@/assets/curso/tema1/img4.png")
-        .col-8.col-md-8
+        .col-11.col-md-8
           ul.lista-ul
             li 
               i.fas.fa-angle-right
@@ -282,30 +286,29 @@
 
     p.mb-5 Para la ejecución correcta de las actividades se debe realizar una asignación de recursos dentro de los cuales se puede mencionar: 
 
-    .row.mb-4
-      .col-md-9.center
-        ImagenInfografica.color-acento-botones
-          template(v-slot:imagen)
-            figure.col-md-9.mb-5.center
-              img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')
-          .tarjeta.bg-amarillo-claro.p-4(x="20.7%" y="8%" numero="1")
-            p <b>Recurso humano</b>  
-            span Se debe contar con personal capacitado para la realización de las actividades puntuales, en este caso se puede mencionar barredores de calles, conductores y colectores en vehículos compactadores y de recolección, operario de la máquina barredora, operarios de separación o disposición de residuos, supervisiones de cuadrillas (equipos de trabajo por zona) entre otros. 
+    .row.justify-content-center
+      ImagenInfografica.color-acento-botones.col-md-11.col-12(data-aos="fade-down")
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.bg-amarillo-claro.p-4(x="40%" y="91.7%" numero="2")
-            p  <b>Recurso tecnológico</b>  
-            span En lo posible es importante dotar a los empleados o personas que realizan estas actividades de equipos tecnológicos como GPS o tabletas para que registren las rutas o reporten cualquier dificultad o novedad en el servicio en tiempo real a la empresa. 
+        .tarjeta.colorfond(x="11.8%" y="8%" numero="1")
+          h5 Recurso humano  
+          p Se debe contar con personal capacitado para la realización de las actividades puntuales, en este caso se puede mencionar barredores de calles, conductores y colectores en vehículos compactadores y de recolección, operario de la máquina barredora, operarios de separación o disposición de residuos, supervisiones de cuadrillas (equipos de trabajo por zona) entre otros.
 
-          .tarjeta.bg-amarillo-claro.p-3(x="59.5%" y="8.2%" numero="3")
-            p <b>Materiales y equipo</b>  
-            span Dentro de los materiales y equipos a utilizar, se debe caracterizar la extensión de las zonas y el tipo de barrido a usar, con el fin de asignar a cada equipo de trabajo los elementos necesarios para la ejecución de la actividad, dentro de ellos se encuentra, balanzas de pesaje (preferiblemente digitales) bolsas según clasificación de la autoridad competente, escobas, recogedores, practiwagones, recipientes o contenedores, cajas estacionarias, máquina barredora, palas, entre otros.<br><br/>Dentro de este ítem también se encuentran los elementos especializados para la recolección como vehículos compactadores, vehículos con sistemas levantadores, compactadores de residuos estacionarios, maquinaria embaladora para reciclables, equipos de succión y cámaras para mantenimiento de alcantarillados, desintegradores y trituradores, entre otros.
+        .tarjeta.colorfond(x="37%" y="92%" numero="2")
+          h5 Recurso tecnológico  
+          p En lo posible es importante dotar a los empleados o personas que realizan estas actividades de equipos tecnológicos como GPS o tabletas para que registren las rutas o reporten cualquier dificultad o novedad en el servicio en tiempo real a la empresa.
 
-          .tarjeta.bg-amarillo-claro.p-4(x="79.2%" y="91.8%" numero="4")
-            p <b>Elementos de protección personal</b>  
-            span Siempre amparados en la normatividad legal vigente se debe otorgar a los empleados o personas que realizarán las actividades los elementos de protección individual que sean necesarios dependiendo de los residuos o actividades de limpieza y aseo que se vayan a ejecutar, dentro de los cuales se contempla, botas, guantes, gafas, casco, tapabocas, overoles entre otros.<br><br/>Dentro de los elementos también se debe garantizar, la señalización requerida para salvaguardar a las personas, dentro de ellas se encuentra conos de señal de precaución, señales móviles de personal trabajando, chalecos reflectivos entre otros.
+        .tarjeta.colorfond(x="62.5%" y="8.2%" numero="3")
+          h5 Materiales y equipo 
+          p Dentro de los materiales y equipos a utilizar, se debe caracterizar la extensión de las zonas y el tipo de barrido a usar, con el fin de asignar a cada equipo de trabajo los elementos necesarios para la ejecución de la actividad, dentro de ellos se encuentra, balanzas de pesaje (preferiblemente digitales) bolsas según clasificación de la autoridad competente, escobas, recogedores, practiwagones, recipientes o contenedores, cajas estacionarias, máquina barredora, palas, entre otros.
+          span Dentro de este ítem también se encuentran los elementos especializados para la recolección como vehículos compactadores, vehículos con sistemas levantadores, compactadores de residuos estacionarios, maquinaria embaladora para reciclables, equipos de succión y cámaras para mantenimiento de alcantarillados, desintegradores y trituradores, entre otros.
 
-
-
+        .tarjeta.colorfond(x="88%" y="92%" numero="4")
+          h5 Elementos de protección personal
+          p Siempre amparados en la normatividad legal vigente se debe otorgar a los empleados o personas que realizarán las actividades los elementos de protección individual que sean necesarios dependiendo de los residuos o actividades de limpieza y aseo que se vayan a ejecutar, dentro de los cuales se contempla, botas, guantes, gafas, casco, tapabocas, overoles entre otros.
+          span Dentro de los elementos también se debe garantizar, la señalización requerida para salvaguardar a las personas, dentro de ellas se encuentra conos de señal de precaución, señales móviles de personal trabajando, chalecos reflectivos entre otros.
 
 
 </template>
@@ -335,7 +338,7 @@ export default {
       {
         titulo: 'Sistema de aseo urbano: ',
         texto:
-          ':Es el conjunto ordenado y sistemático de equipos, elementos y maquinaria, que se utilizan para el desarrollo de los diferentes componentes que hacen parte del servicio público de aseo y que proporciona información sobre el estado, calidad y comportamiento de las actividades en la gestión de los residuos sólidos.',
+          'Es el conjunto ordenado y sistemático de equipos, elementos y maquinaria, que se utilizan para el desarrollo de los diferentes componentes que hacen parte del servicio público de aseo y que proporciona información sobre el estado, calidad y comportamiento de las actividades en la gestión de los residuos sólidos.',
         imagen: require('@/assets/curso/tema1/3.jpg'),
         leyendaImagen: 'Leyenda de la imagen',
       },

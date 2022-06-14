@@ -100,6 +100,16 @@
     height: 96%
     background: linear-gradient(0deg, #E4FDFC 0%, #E9DCFD 80%)
     background-repeat: no-repeat
+    @media screen and (max-width: 1200px)
+      content: ''
+      position: absolute       
+      margin: 0 0rem
+      top: 0rem
+      left: -10%    
+      width: calc(100% + 6rem)
+      height: 100%
+      background: linear-gradient(0deg, #E4FDFC 0%, #E9DCFD 80%)
+      background-repeat: no-repeat
   
 .bg-suave
   background-color: #26A0DF
@@ -107,20 +117,25 @@
   position: relative
   border-radius: 15px
     
-.bg-amarillo-claro
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: #000000
+
+.colorfond
   background: linear-gradient(0deg, #D5D3E6 0%, #EDECF8 80%)
-  height: auto
-  width: 500px
-  padding: 15px
-  @media screen and (max-width: 1400px)        
-    height: auto
-    width: auto
-    padding: 20px
-
-.img-infografica.color-acento-botones .img-infografica__item__numero, .img-infografica-b.color-acento-botones .img-infografica__item__numero
-  color: #000000;
-
-
+  width: 350px
+  padding: 30px
+  @media screen and (max-width: 1400px)
+    width: 360px
+    padding: 25px
+  @media screen and (max-width: 1200px)
+    width: 345px
+    padding: 25px
+  @media screen and (max-width: 900px)
+    width: 280px
+    padding: 25px
+  @media screen and (max-width: 500px)
+    width: 220px
+    padding: 12px
 //Tema 2
 
 .bg_color2

@@ -25,7 +25,7 @@
 
     .bg_grad-01
       .row.justify-content-center.align-items-center
-        .col-md-4.pos1
+        .col-md-4.pos1.mb-4
           figure
             img(src="@/assets/curso/tema1/img1.png" style="width: 315px")
         .col-md-8 

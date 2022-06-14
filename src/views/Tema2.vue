@@ -10,7 +10,7 @@
     p.mb-5 Para hacer la recolección de los residuos sólidos desde las viviendas de los usuarios hasta los puntos de disposición o de aprovechamiento se deben diseñar rutas para hacer los recorridos de forma eficiente.
 
     .row.mb-5
-      .col-md-4
+      .col-md-4.mb-4
         img(src='@/assets/curso/tema2/img1.jpg' alt='AvatarTop')
       .col-md-8
         p De acuerdo con el Decreto 2981 (2013)  cuando se habla de la división geográfica de una ciudad, zona o área de prestación del servicio para la distribución de los recursos y equipos a fin de optimizar la actividad de recolección de residuos, barrido y limpieza de vías y áreas públicas y/o corte de césped y poda de árboles ubicados en las vías y áreas públicas, se habla de macro ruta. Por otro lado, la descripción detallada a nivel de las calles y manzanas del trayecto de un vehículo o cuadrilla, para la prestación del servicio público de recolección de residuos; de barrido y limpieza de vías y áreas públicas; y/o corte de césped y poda de árboles ubicados en las vías y áreas públicas, dentro de una frecuencia predeterminada, se conoce como micro ruta.
@@ -207,7 +207,7 @@
           .col-xxl-4.col-lg-3.col-md-4.col-xl-4
             h5.margen-texto De acuerdo con el RAS título F (2012) la frecuencia de recolección depende del nivel de complejidad del sistema, así como ciertas restricciones que se presentan a continuación:
 
-          .col-lg-4.mb-3
+          .col-lg-4.mb-3.col-12
             .tarjeta-avatar
               img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
               .tarjeta1.bg_color3
@@ -215,11 +215,11 @@
                   h5 Nivel de complejidad bajo y medio:
                   p la recolección de los residuos sólidos obtenidos en el proceso de barrido de vías y limpieza de áreas públicas, podrán realizarse simultáneamente con las frecuencias de recolección de los residuos presentados por los usuarios del servicio ordinario.
 
-          .col-lg-4.mb-3
+          .col-lg-4.mb-3.col-12
             .tarjeta-avatar
               img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop')
               .tarjeta1.bg_color3
-                .p-4
+                .p-3
                   h5 Nivel de complejidad medio alto y alto: 
                   p las frecuencias de recolección deberán ser diseñadas en forma separada, procurando que los residuos producto del barrido manual y mecánico de vías y limpieza de áreas públicas puedan ser transportadas al sitio de disposición final sin ser mezclados con los residuos presentados por los usuarios del servicio de aseo.
          
@@ -255,24 +255,16 @@
               tr Mayor o igual a 22ºC
               tr Menor de 22ºC
             td
-              tr 
-                td 3
-                td 1
-              tr
-                td 2
-                td 1
+              tr 3 - 1
+              tr 2 - 1
           tr
             td Alto*
             td
               tr Mayor o igual a 22ºC
               tr Menor de 22ºC
             td
-                tr 
-                  td 3
-                  td 1
-                tr
-                  td 2
-                  td 1*
+                tr 3 - 1
+                tr 2 - 1*
 
     p.mb-5 Todo cambio en las rutas, frecuencias y horarios debe ser notificado con anterioridad de mínimo 5 días a los usuarios atendidos. Si el día propuesto de recolección es festivo y la empresa de recolección no labora en ese día, ésta deberá diseñar un plan de contingencia de modo que la recolección se normalice en los siguientes 2 días.
     separador
