@@ -14,7 +14,7 @@
         p.mb-4 Reforzar conceptos y elementos teóricos y prácticos desarrollados en el componente formativo.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
+            .col-md-8
               p.fw-bold.mb-0 Responder falso o verdadero.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")

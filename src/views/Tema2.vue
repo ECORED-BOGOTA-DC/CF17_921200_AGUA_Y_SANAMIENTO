@@ -117,13 +117,13 @@
         img(src='@/assets/curso/tema2/11.svg' alt='AvatarTop')
         .tarjeta.bg_color2
           .p-4
-            p En caso de recolección en ambas aceras, deben preferirse rutas derechas con pocos giros
+            p En caso de recolección en ambas aceras, deben preferirse rutas derechas con pocos giros.
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/12.svg' alt='AvatarTop')
         .tarjeta.bg_color2
           .p-4
-            p El conductor o jefe de cuadrilla debe contar con una carta de recorrido o micro ruta preestablecida al momento de iniciar los servicios; ésta debe ser susceptible de adaptarse a medida que la cuadrilla descubra mejores formas de realizar el servicio (reducción de tiempo y consumo de combustible) 
+            p El conductor o jefe de cuadrilla debe contar con una carta de recorrido o micro ruta preestablecida al momento de iniciar los servicios; ésta debe ser susceptible de adaptarse a medida que la cuadrilla descubra mejores formas de realizar el servicio (reducción de tiempo y consumo de combustible). 
 
       .tarjeta-avatar
         img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
@@ -193,7 +193,7 @@
         img(src='@/assets/curso/tema2/vec3.svg', alt='Texto que describa la imagen')
       .col-md-8
         .cajon-b.color-primario.p-3.mb-5
-          p.mb-0 De acuerdo con el RAS título F (2012) para mejorar la calidad del servicio se deben tener en cuenta las cantidades de residuos que se generan, las características de cada zona, la jornada de trabajo, el clima, la capacidad de los equipos, las dificultades generadas por el tráfico vehicular o peatonal y cualquier otro elemento que pueda tener influencia y teniendo eso en cuenta se establecen los horarios de recolección.<br><br/>Establecer y cumplir los horarios de recolección y de barrido es una obligación por parte del prestador del servicio de aseo de acuerdo con lo establecido en el artículo 32 del decreto 2981 (2013)<br><br/>Es importante resaltar que se debe tener especial cuidado cuando la recolección se efectúe entre las 21:00 horas y las 06:00 horas del día siguiente en zonas residenciales, hoteles, hospitales, clínicas y demás centros asistenciales ya que en estos casos deberán tomarse medidas especiales para mitigar el ruido en la recolección y la compactación.
+          p.mb-0 De acuerdo con el RAS título F (2012) para mejorar la calidad del servicio se deben tener en cuenta las cantidades de residuos que se generan, las características de cada zona, la jornada de trabajo, el clima, la capacidad de los equipos, las dificultades generadas por el tráfico vehicular o peatonal y cualquier otro elemento que pueda tener influencia y teniendo eso en cuenta se establecen los horarios de recolección.<br><br/>Establecer y cumplir los horarios de recolección y de barrido es una obligación por parte del prestador del servicio de aseo de acuerdo con lo establecido en el artículo 32 del decreto 2981 (2013).<br><br/>Es importante resaltar que se debe tener especial cuidado cuando la recolección se efectúe entre las 21:00 horas y las 06:00 horas del día siguiente en zonas residenciales, hoteles, hospitales, clínicas y demás centros asistenciales ya que en estos casos deberán tomarse medidas especiales para mitigar el ruido en la recolección y la compactación.
     separador
 
     #t_2_5.titulo-segundo.color-acento-contenido
@@ -205,7 +205,7 @@
       .row.justify-content-center.my-5.p-5.correr-izq.correr-der
         .row.justify-content-center.align-items-center
           .col-xxl-4.col-lg-3.col-md-4.col-xl-4
-            h5.margen-texto De acuerdo con el RAS título F (2012) la frecuencia de recolección depende del nivel de complejidad del sistema, así como ciertas restricciones que se presentan a continuación:
+            p.margen-texto De acuerdo con el RAS título F (2012) la frecuencia de recolección depende del nivel de complejidad del sistema, así como ciertas restricciones que se presentan a continuación:
 
           .col-lg-4.mb-3.col-12
             .tarjeta-avatar
@@ -232,7 +232,7 @@
     .tabla-a.color-acento-contenido.mb-5 
       table
         caption Nota. Tomado de Ministerio de Vivienda, Ciudad y Territorio. (2012) Reglamento técnico del sector de Agua potable y Saneamiento básico (RAS) título F. Sistemas de Aseo Urbano. [Tabla] (p. 68). 
-        thead
+        thead.text-center
           tr
             th Nivel de complejidad
             th Temperatura
@@ -240,7 +240,7 @@
               tr
                 th De residuos presentados por los suscriptores 
                 th De residuos producto del barrido de vías y limpieza de áreas públicas
-        tbody
+        tbody.text-center
           tr
             td Bajo
             td Indiferente
@@ -251,20 +251,12 @@
             td 2 simultáneamente
           tr
             td Medio Alto
-            td
-              tr Mayor o igual a 22ºC
-              tr Menor de 22ºC
-            td
-              tr 3 - 1
-              tr 2 - 1
+            td.text-center Mayor o igual a 22ºC <br><br/> Menor de 22ºC
+            td.text-center 3 - 1 <br><br/> 2 - 1
           tr
             td Alto*
-            td
-              tr Mayor o igual a 22ºC
-              tr Menor de 22ºC
-            td
-                tr 3 - 1
-                tr 2 - 1*
+            td.text-center Mayor o igual a 22ºC <br><br/> Menor de 22ºC
+            td.text-center 3 - 1 <br><br/>  2 - 1*
 
     p.mb-5 Todo cambio en las rutas, frecuencias y horarios debe ser notificado con anterioridad de mínimo 5 días a los usuarios atendidos. Si el día propuesto de recolección es festivo y la empresa de recolección no labora en ese día, ésta deberá diseñar un plan de contingencia de modo que la recolección se normalice en los siguientes 2 días.
     separador

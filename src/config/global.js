@@ -176,34 +176,44 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Board',
+      termino: 'Área pública',
       significado:
-        '(tablero) en Scrum es la herramienta visual donde se mantiene la comunicación constante, fortaleciendo las actividades de los procesos.',
+        'es aquella destinada al uso, recreo o tránsito público, como parques, plazas, plazoletas y playas salvo aquellas con restricciones de acceso  (Decreto 1077, 2015)',
     },
     {
-      termino: 'Development',
+      termino: 'Barrido y limpieza de vías y áreas públicas',
       significado:
-        '(desarrollo) conjunto de profesionales que desarrollan el producto con ciertas habilidades técnicas.',
+        'es la actividad del servicio público de aseo que consiste en el conjunto de acciones tendientes a dejar las áreas y las vías públicas libres de todo residuo sólido, esparcido o acumulado, de manera que dichas áreas queden libres de papeles, hojas, arenilla y similares y de cualquier otro objeto o material susceptible de ser removido manualmente o mediante el uso de equipos mecánicos (Decreto 1077, 2015)',
     },
     {
-      termino: 'Planning',
+      termino: 'Cuneta',
       significado:
-        '(planificación) reunión que se da al inicio de cada Sprint donde participa el equipo completo de Scrum, y donde se define lo que se trabajará durante el siguiente Sprint.',
+        'zanja, revestida o no, ubicada a cada lado de las vías, destinadas a facilitar el drenaje superficial longitudinal de las mismas y que son objeto de barrido o limpieza por parte del prestador del servicio de aseo en su área de atención (Decreto 1077, 2015)',
     },
     {
-      termino: 'Review',
+      termino: 'Frecuencia del servicio',
       significado:
-        '(revisión) se realiza al final del Sprint, sacando conclusiones y si hubo cambios.',
+        'es el número de veces en un periodo definido que se presta el servicio público de aseo en sus actividades de barrido, limpieza, recolección y transporte, corte de césped y poda de árboles (Decreto 1077, 2015)',
     },
     {
-      termino: 'Scrum',
+      termino: 'Plan de gestión integral de residuos sólidos (PGIRS)',
       significado:
-        'en el rugby, es un tipo de formación fija, cuya función es disputar y poner el balón en juego; en referencia al Scrum, es la idea de avanzar en equipo, enviando balón hacia atrás para luego avanzar.',
+        'es el instrumento de planeación municipal o regional que contiene un conjunto ordenado de objetivos, metas, programas, proyectos, actividades y recursos definidos por uno o más entes territoriales para el manejo de los residuos sólidos, basado en la política de gestión integral de los mismos, el cual se ejecutará durante un período determinado, basándose en un diagnóstico inicial, en su proyección hacia el futuro y en un plan financiero viable que permita garantizar el mejoramiento continuo del manejo de residuos y la prestación del servicio de aseo a nivel municipal o regional, evaluado a través de la medición de resultados. Corresponde a la entidad territorial la formulación, implementación, evaluación, seguimiento y control y actualización del PGIRS (Decreto 1077, 2015)',
     },
     {
-      termino: 'Sprint',
+      termino: 'Recolección en acera',
       significado:
-        '(pique, carrera) intervalo de un proceso, hecho o terminado y entregable en Scrum.',
+        'es la que se efectúa cuando los residuos sólidos son presentados por los usuarios para su recolección en el andén ubicado frente a su predio o domicilio (Ministerio de vivienda, ciudad y territorio, 2012)',
+    },
+    {
+      termino: 'Recolección en unidades de almacenamiento',
+      significado:
+        'es la que se efectúa cuando los residuos sólidos generados por los usuarios se presentan para su recolección en forma conjunta en cajas de almacenamiento (Ministerio de vivienda, ciudad y territorio, 2012)',
+    },
+    {
+      termino: 'Reglamento técnico',
+      significado:
+        'reglamento de carácter obligatorio expedido por la autoridad competente, con fundamento en la Ley, que suministra requisitos técnicos, bien sea directamente o mediante referencia o incorporación del contenido de una norma nacional, regional o internacional, una especificación técnica o un código de buen procedimiento (Ministerio de vivienda, ciudad y territorio, 2012)',
     },
   ],
   complementario: [

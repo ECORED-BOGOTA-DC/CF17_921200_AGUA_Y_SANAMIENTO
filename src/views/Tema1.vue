@@ -16,7 +16,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2(data-aos="zoom-in") 1.1 Tipos de barrido y limpieza
     
-    p.mb-5 Para realizar el proceso de barrido y limpieza existen dos formas de realizar dicha actividad de acuerdo con el Decreto 1077 (2015)
+    p.mb-5 Para realizar el proceso de barrido y limpieza existen dos formas de realizar dicha actividad de acuerdo con el Decreto 1077 (2015).
 
     figure.col-10.center.mb-5
       img.mb-5(src='@/assets/curso/tema1/vec2.svg')
@@ -41,7 +41,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2.	Tipos de recolección
 
-    p.mb-5 Dentro de las acciones de recolección se podría diferenciar las siguientes según el Decreto 1077 (2015)
+    p.mb-5 Dentro de las acciones de recolección se podría diferenciar las siguientes según el Decreto 1077 (2015).
 
     figure.col-12.center.mb-5
       img.mb-5(src='@/assets/curso/tema1/vec3.svg')
@@ -84,14 +84,14 @@
     
     .row.mb-5
       .col-md-8.center
-        h5.text-center Partiendo del Decreto 2981 (2013) el cual fue compilado por el Decreto 1077 (2015) se especificó en el artículo 52 lo siguiente: 
+        p.text-center Partiendo del Decreto 2981 (2013) el cual fue compilado por el Decreto 1077 (2015) se especificó en el artículo 52 lo siguiente: 
 
     .row.justify-content-center.mb-4
       .col-lg-8
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/1.svg' alt='AvatarTop' style= "height: 110px")
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--azul1
             .p-2
               p.mt-3.me-5.pe-4 La responsabilidad en barrido y limpieza de vías y áreas públicas es de la persona prestadora del servicio público de aseo en el área de prestación donde realice las actividades de recolección y transporte. La prestación de este componente en todo caso deberá realizarse de acuerdo con la frecuencia y horarios establecidos en el programa para la prestación del servicio público de aseo, y cumpliendo con las exigencias establecidas en el Plan de Gestión Integral de Residuos Sólidos (PGIRS) del respectivo municipio o distrito.
     
@@ -100,8 +100,8 @@
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema1/2.svg' alt='AvatarTop' style= "height: 110px")
-          .tarjeta.tarjeta--azul
-            .p-2
+          .tarjeta.tarjeta--azul1
+            .p-3
               p.mt-5.me-5.pe-4  La determinación de los kilómetros a barrer deberá tener en cuenta las frecuencias de barrido y en calles no pavimentadas y en áreas donde no sea posible realizar el barrido por sus características físicas, se desarrollarán labores de limpieza manual.
     
     p.mb-5 Además de esto indica que La Comisión de Regulación de Agua Potable y Saneamiento Básico (CRA) determinará la metodología de cálculo de los kilómetros a barrer por cada prestador en función del número de usuarios que cada uno atienda en el área de confluencia.<br><br/> Bajo esa premisa siempre se debe verificar la base normativa que brinde la CRA respecto a la metodología, ya que esta también determina actividades que serán necesarias llevar a cabo por las empresas prestadores de servicios de aseo y limpieza.
@@ -118,7 +118,7 @@
             figure.justify-center
               img(src="@/assets/curso/tema1/img2.png")
           .col-12.col-md-8
-            p.m-0 Dentro de las primeras actividades que deben quedar definidas se encuentra la determinación del área de prestación de servicio la cual corresponde a la zona geográfica del municipio o distrito debidamente delimitada donde la persona prestadora ofrece y presta el servicio de aseo (Decreto 1077, 2015)<br><br/>De acuerdo con la CRA, en la resolución 709 (2015) estas áreas deben estar delimitadas bajo los denominados acuerdos de barrido y limpieza que son descritos en el artículo 53 del decreto 2981 (2013)
+            p.m-0 Dentro de las primeras actividades que deben quedar definidas se encuentra la determinación del área de prestación de servicio la cual corresponde a la zona geográfica del municipio o distrito debidamente delimitada donde la persona prestadora ofrece y presta el servicio de aseo (Decreto 1077, 2015).<br><br/>De acuerdo con la CRA, en la resolución 709 (2015) estas áreas deben estar delimitadas bajo los denominados acuerdos de barrido y limpieza que son descritos en el artículo 53 del decreto 2981 (2013).
 
       p.mb-5 Las personas prestadoras deberán suscribir acuerdos, de barrido y limpieza en los que se determinen las vías y áreas públicas que cada persona prestadora vaya a atender en el respectivo municipio, sin perjuicio de que en el mismo acuerdo se convenga que solo uno de ellos sea quien atiende la totalidad del área. En los mismos acuerdos se podrá establecer la forma de remunerarse entre los prestadores de las mencionadas actividades.
 
@@ -129,7 +129,7 @@
 
       .row.align-items-center
         .col-md-3
-          p <b>Dentro de los elementos que se hace necesario tener en cuenta para programar las actividades de barrido y limpieza se encuentran según la resolución 709 (2015)</b>
+          p Dentro de los elementos que se hace necesario tener en cuenta para programar las actividades de barrido y limpieza se encuentran según la resolución 709 (2015)
         .col-md-9
           SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
             .tarjeta-avatar
@@ -188,7 +188,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 2
-              |	Las partes deben estar inscritas en el Registro Único de Prestadores de Servicios Públicos (RUPS) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD)
+              |	Las partes deben estar inscritas en el Registro Único de Prestadores de Servicios Públicos (RUPS) de la Superintendencia de Servicios Públicos Domiciliarios (SSPD).
             br
             li 
               .lista-ol--cuadro__vineta
@@ -203,7 +203,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 5
-              |	Número total de suscriptores atendidos por cada persona prestadora del servicio público de aseo en la actividad de recolección y transporte en el área de confluencia en el periodo de producción de residuos sólidos inmediatamente anterior a la celebración del acuerdo, al cual se le deberá relacionar la dirección de todos los suscriptores del área de confluencia con los usuarios del maestro de facturación (Resolución 709, 2015, p.11)
+              |	Número total de suscriptores atendidos por cada persona prestadora del servicio público de aseo en la actividad de recolección y transporte en el área de confluencia en el periodo de producción de residuos sólidos inmediatamente anterior a la celebración del acuerdo, al cual se le deberá relacionar la dirección de todos los suscriptores del área de confluencia con los usuarios del maestro de facturación (Resolución 709, 2015, p.11).
     separador 
 
     #t_1_5.titulo-segundo.color-acento-contenido
@@ -330,7 +330,7 @@ export default {
       {
         titulo: 'Servicio público de aseo:',
         texto:
-          'Es el servicio de recolección municipal de residuos, principalmente sólidos. También se aplicará a las actividades complementarias de transporte, tratamiento, aprovechamiento y disposición final de tales residuos.',
+          'es el servicio de recolección municipal de residuos, principalmente sólidos. También se aplicará a las actividades complementarias de transporte, tratamiento, aprovechamiento y disposición final de tales residuos.',
         imagen: require('@/assets/curso/tema1/2.jpg'),
         leyendaImagen:
           'Dos trabajadores de recogida de residuos que cargan basura en contenedores vacíos de camiones de basura.',
@@ -338,7 +338,7 @@ export default {
       {
         titulo: 'Sistema de aseo urbano: ',
         texto:
-          'Es el conjunto ordenado y sistemático de equipos, elementos y maquinaria, que se utilizan para el desarrollo de los diferentes componentes que hacen parte del servicio público de aseo y que proporciona información sobre el estado, calidad y comportamiento de las actividades en la gestión de los residuos sólidos.',
+          'es el conjunto ordenado y sistemático de equipos, elementos y maquinaria, que se utilizan para el desarrollo de los diferentes componentes que hacen parte del servicio público de aseo y que proporciona información sobre el estado, calidad y comportamiento de las actividades en la gestión de los residuos sólidos.',
         imagen: require('@/assets/curso/tema1/3.jpg'),
         leyendaImagen: 'Leyenda de la imagen',
       },
