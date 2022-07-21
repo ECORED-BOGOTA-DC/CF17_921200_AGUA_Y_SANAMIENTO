@@ -52,9 +52,9 @@
 
     p.mb-5 Dentro de las personas involucradas en las actividades de servicio público de aseo es importante referenciar los principales:
 
-    .row.justify-content-center
+    .row.mb-5justify-content-center
       .col-md-7
-        LineaTiempoD.color-acento-contenido.mb-5
+        LineaTiempoD.color-primario.mb-5
           .row(numero="1" titulo="Generador o usuario residencial")
             .col-md-12.mb-4.mb-md-0.px-4
               p.mt-4 Son todas las personas que pueden estar organizadas como multiusuarios o como personas independientes que presentan residuos para que sean recolectados por el servicio público de aseo de su territorio.
@@ -70,7 +70,7 @@
           .row(numero="4" titulo="Recicladores de oficio y las organizaciones de recicladores de oficio")
             .col-md-12.mb-4.mb-md-0.px-4
               p.mt-4 Personas prestadoras de la actividad de aprovechamiento en el servicio público de aseo, para todo el territorio nacional (Decreto 596, 2016).
-      .col-md-4
+      .col-md-4.col-10
         figure.py-4
           img(src='@/assets/curso/tema1/vec10.svg')
     
@@ -176,7 +176,7 @@
       p.mb-5 Teniendo claro que estos acuerdos son para las personas y organizaciones prestadoras del servicio de aseo que confluyen en la misma área de servicio dentro de las acciones que deben ser tenidas en cuenta y son objeto de supervisión, se encuentran:
 
       .row 
-        .col-md-3
+        .col-md-3.col-8
           img.mb-5(src='@/assets/curso/tema1/img3.png')
         .col-md-9
           ol.lista-ol--cuadro
@@ -287,29 +287,30 @@
     p.mb-5 Para la ejecución correcta de las actividades se debe realizar una asignación de recursos dentro de los cuales se puede mencionar: 
 
     .row.justify-content-center
-      ImagenInfografica.color-acento-botones.col-md-11.col-12(data-aos="fade-down")
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')
+      .col-md-11(data-aos="fade-down")
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/info.svg', alt='Texto que describa la imagen')
 
-        .tarjeta.colorfond(x="11.8%" y="8%" numero="1")
-          h5 Recurso humano  
-          p Se debe contar con personal capacitado para la realización de las actividades puntuales, en este caso se puede mencionar barredores de calles, conductores y colectores en vehículos compactadores y de recolección, operario de la máquina barredora, operarios de separación o disposición de residuos, supervisiones de cuadrillas (equipos de trabajo por zona) entre otros.
+          .tarjeta.colorfond(x="10.9%" y="8%" numero="1")
+            h5 Recurso humano  
+            p Se debe contar con personal capacitado para la realización de las actividades puntuales, en este caso se puede mencionar barredores de calles, conductores y colectores en vehículos compactadores y de recolección, operario de la máquina barredora, operarios de separación o disposición de residuos, supervisiones de cuadrillas (equipos de trabajo por zona) entre otros.
 
-        .tarjeta.colorfond(x="37%" y="92%" numero="2")
-          h5 Recurso tecnológico  
-          p En lo posible es importante dotar a los empleados o personas que realizan estas actividades de equipos tecnológicos como GPS o tabletas para que registren las rutas o reporten cualquier dificultad o novedad en el servicio en tiempo real a la empresa.
+          .tarjeta.colorfond(x="36.5%" y="91.7%" numero="2")
+            h5 Recurso tecnológico  
+            p En lo posible es importante dotar a los empleados o personas que realizan estas actividades de equipos tecnológicos como GPS o tabletas para que registren las rutas o reporten cualquier dificultad o novedad en el servicio en tiempo real a la empresa.
 
-        .tarjeta.colorfond(x="62.5%" y="8.2%" numero="3")
-          h5 Materiales y equipo 
-          p Dentro de los materiales y equipos a utilizar, se debe caracterizar la extensión de las zonas y el tipo de barrido a usar, con el fin de asignar a cada equipo de trabajo los elementos necesarios para la ejecución de la actividad, dentro de ellos se encuentra, balanzas de pesaje (preferiblemente digitales) bolsas según clasificación de la autoridad competente, escobas, recogedores, practiwagones, recipientes o contenedores, cajas estacionarias, máquina barredora, palas, entre otros.
-          span Dentro de este ítem también se encuentran los elementos especializados para la recolección como vehículos compactadores, vehículos con sistemas levantadores, compactadores de residuos estacionarios, maquinaria embaladora para reciclables, equipos de succión y cámaras para mantenimiento de alcantarillados, desintegradores y trituradores, entre otros.
+          .tarjeta.colorfond(x="62.7%" y="8.2%" numero="3")
+            h5 Materiales y equipo 
+            p Dentro de los materiales y equipos a utilizar, se debe caracterizar la extensión de las zonas y el tipo de barrido a usar, con el fin de asignar a cada equipo de trabajo los elementos necesarios para la ejecución de la actividad, dentro de ellos se encuentra, balanzas de pesaje (preferiblemente digitales) bolsas según clasificación de la autoridad competente, escobas, recogedores, practiwagones, recipientes o contenedores, cajas estacionarias, máquina barredora, palas, entre otros.
+            span Dentro de este ítem también se encuentran los elementos especializados para la recolección como vehículos compactadores, vehículos con sistemas levantadores, compactadores de residuos estacionarios, maquinaria embaladora para reciclables, equipos de succión y cámaras para mantenimiento de alcantarillados, desintegradores y trituradores, entre otros.
 
-        .tarjeta.colorfond(x="88%" y="92%" numero="4")
-          h5 Elementos de protección personal
-          p Siempre amparados en la normatividad legal vigente se debe otorgar a los empleados o personas que realizarán las actividades los elementos de protección individual que sean necesarios dependiendo de los residuos o actividades de limpieza y aseo que se vayan a ejecutar, dentro de los cuales se contempla, botas, guantes, gafas, casco, tapabocas, overoles entre otros.
-          span Dentro de los elementos también se debe garantizar, la señalización requerida para salvaguardar a las personas, dentro de ellas se encuentra conos de señal de precaución, señales móviles de personal trabajando, chalecos reflectivos entre otros.
-
+          .tarjeta.colorfond(x="89%" y="92%" numero="4")
+            h5 Elementos de protección personal
+            p Siempre amparados en la normatividad legal vigente se debe otorgar a los empleados o personas que realizarán las actividades los elementos de protección individual que sean necesarios dependiendo de los residuos o actividades de limpieza y aseo que se vayan a ejecutar, dentro de los cuales se contempla, botas, guantes, gafas, casco, tapabocas, overoles entre otros.
+            span Dentro de los elementos también se debe garantizar, la señalización requerida para salvaguardar a las personas, dentro de ellas se encuentra conos de señal de precaución, señales móviles de personal trabajando, chalecos reflectivos entre otros.
+      
 
 </template>
 

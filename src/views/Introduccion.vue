@@ -13,7 +13,7 @@
       .col.col-12.col-lg-8.pt-5
         p Usualmente cada ciudad, municipio o región, en el desarrollo social y económico generan millones de residuos que son dispuestos en bolsas para que se realice la recolección de estos.
         .cajon.color-secundario.p-3.mb-3.col-12
-          p Sin embargo, no existe una conciencia colectiva que dimensione la cantidad real de residuos que genera toda una población. Para ampliar esta información, lo invitamos a ver el video “Alerta ONU peligros por millones de toneladas de residuos urbanos”, que se encuentra en el material complementario.
+          p.mb-0 Sin embargo, no existe una conciencia colectiva que dimensione la cantidad real de residuos que genera toda una población. Para ampliar esta información, lo invitamos a ver el video “Alerta ONU peligros por millones de toneladas de residuos urbanos”, que se encuentra en el material complementario.
       .col.col-12.col-lg-4.position-relative
         picture
           img(src='@/assets/curso/tema1/vec1.svg', alt='Ubicación de mercancía', class='img-fluid')

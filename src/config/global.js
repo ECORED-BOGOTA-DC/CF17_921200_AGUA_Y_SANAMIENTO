@@ -4,7 +4,7 @@ export default {
       'Caracterización del servicio público domiciliario de aseo',
     descripcionCurso:
       'El presente componente tiene como propósito establecer los principios básicos para la prestación del servicio de aseo urbano, sus componentes y elementos funcionales, las definiciones, los procedimientos generales que se deben tener en cuenta para el diseño de los sistemas de aseo y los procedimientos particulares para el desarrollo de éstos.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {

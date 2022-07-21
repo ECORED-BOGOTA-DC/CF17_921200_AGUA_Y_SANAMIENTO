@@ -1,7 +1,7 @@
 // introducción
 
 .cajon.color-secundario
-  background-color: rgba(#3E24F2, 0.2,)
+  background-color: #E6E3FE
 
 .lista-ol--cuadro__vineta 
     background-color: #0F2771;
@@ -11,6 +11,9 @@
     color: #fff;
     position: relative;
     margin-right: 8px;
+
+.cajon.color-secundario:before 
+  background-color: #ABA1F0
 
 .pos1
   margin-right: -60px
@@ -34,8 +37,8 @@
 
 //Tema 1
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span, 
-    color: #ffffff;
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: #ffffff
 
 .bg_grad-02
   background: linear-gradient(to bottom, #E5F4FC, #FFFFFF);
@@ -46,7 +49,7 @@
     width: 30px;
     height: 30px;
     position: relative;
-    background-color: #FBEA04;
+    background-color: #FBEA04
     margin-left: 15px;
 
 .center
@@ -55,16 +58,20 @@
 .bg_color7
   background-color: #EFEFFE
 
-.linea-tiempo-d .tarjeta 
-    background: linear-gradient(0deg, #EDEAFE 0%, #F6F9FE 100%)  
+.linea-tiempo-d__item__content__title
+  background: linear-gradient(0deg, #EDEAFE 0%, #F6F9FE 100%) 
+
+.tarjeta--gris, .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  background-color: #EDEAFE
 
 .tarjeta--azul 
   background-color: #DCF1FF
 
 .tarjeta--azul1
-  background-color: #DCF1FF
+  background-color: rgba(220,241,255,0.4)
   height: 233px
   width: 945px
+  box-shadow: 6px -3px 15px #0000001b
   @media screen and (max-width: 1400px)        
     height: auto
     width: auto
@@ -125,16 +132,16 @@
 
 .colorfond
   background: linear-gradient(0deg, #D5D3E6 0%, #EDECF8 80%)
-  width: 350px
-  padding: 30px
+  width: 370px
+  padding: 25px
   @media screen and (max-width: 1400px)
-    width: 360px
+    width: 370px
     padding: 25px
   @media screen and (max-width: 1200px)
     width: 345px
     padding: 25px
   @media screen and (max-width: 900px)
-    width: 280px
+    width: 300px
     padding: 25px
   @media screen and (max-width: 500px)
     width: 220px
@@ -143,40 +150,42 @@
 
 .bg-amarillo-claro
   background-color: #ECE9FD
+  
 .bg_color2
   background-color: #E9F5FC
+  box-shadow: -3px 3px 15px #0000001b
 
-.tarjeta-avatar .tarjeta 
+.tarjeta-avatar .tarjeta
   display: inline-block;
   padding-top: 35px !important;
   border-radius: 0px 30px 0px 30px
-  height: 330px 
+  height: 320px 
   width: 326px
   @media screen and (max-width: 1400px)        
     height: auto
     width: auto
 
 .tarjeta-avatar > img 
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    display: block;
-    width: 112px;
-    margin: 0 auto;
+  position: absolute
+  left: 50%
+  top: 0
+  transform: translateX(-50%)
+  display: block
+  width: 122px
+  margin: 0 auto
 
 .cajon-b.color-primario:before 
-    background-color: #92CFEF
+  background-color: #92CFEF
 
 .cajon-b:before 
-    content: '';
-    display: block;
-    position: absolute;
-    opacity: .35;
-    top: 72%
-    left: 65%
-    right: 0%
-    bottom: 5%
+  content: '';
+  display: block;
+  position: absolute;
+  opacity: .35;
+  top: 72%
+  left: 65%
+  right: 0%
+  bottom: 5%
 
 .bg_grad-04
   position: relative

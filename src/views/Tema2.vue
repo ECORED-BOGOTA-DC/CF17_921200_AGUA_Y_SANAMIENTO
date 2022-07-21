@@ -52,114 +52,117 @@
 
     p.mb-5 Cuando se establecen las micro rutas se deben tener en cuenta diferentes condiciones geográficas y viales que se puedan presentar en el municipio donde se presta el servicio, por ello las recomendaciones que se hacen son:
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p La micro ruta debe comenzar en el punto más cercano al garaje del vehículo y terminar en el punto más cercano al sitio de disposición final de los residuos sólidos. 
+    .row.mb-5
+      .col-md-12
+        SlyderF(columnas="col-lg-6 col-xl-4")
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p La micro ruta debe comenzar en el punto más cercano al garaje del vehículo y terminar en el punto más cercano al sitio de disposición final de los residuos sólidos. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Los residuos localizados en zonas de congestión vial se deben recoger a una hora del día tal que no haya congestiones de tráfico que retrasen el recorrido o que no se generen problemas de flujo en el tránsito por su presencia.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Los residuos localizados en zonas de congestión vial se deben recoger a una hora del día tal que no haya congestiones de tráfico que retrasen el recorrido o que no se generen problemas de flujo en el tránsito por su presencia.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p El diseño de la micro ruta debe minimizar los giros en “U” y los giros a la izquierda.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p El diseño de la micro ruta debe minimizar los giros en “U” y los giros a la izquierda.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p La micro ruta debe promover que el recorrido de las calles sea en el sentido de las manecillas del reloj.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p La micro ruta debe promover que el recorrido de las calles sea en el sentido de las manecillas del reloj.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p La micro ruta debe ser continua, es decir que contenga una serie de calles sin zonas muertas o traslapadas con calles correspondientes a otras rutas.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p La micro ruta debe ser continua, es decir que contenga una serie de calles sin zonas muertas o traslapadas con calles correspondientes a otras rutas.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Las micro rutas correspondientes a una misma zona de servicio deben en lo posible recolectar un mismo número de cargas diarias, lo que le da flexibilidad al servicio. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Las micro rutas correspondientes a una misma zona de servicio deben en lo posible recolectar un mismo número de cargas diarias, lo que le da flexibilidad al servicio. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Las vías cerradas deben ser recolectadas así: desplazamiento en reversa y recolección en marcha adelante. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Las vías cerradas deben ser recolectadas así: desplazamiento en reversa y recolección en marcha adelante. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p En lo posible, las micro rutas deben diseñarse para que empiecen y terminen cerca de calles de tráfico alto, utilizando las barreras topográficas y físicas como bordes de la macro ruta. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p En lo posible, las micro rutas deben diseñarse para que empiecen y terminen cerca de calles de tráfico alto, utilizando las barreras topográficas y físicas como bordes de la macro ruta. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/9.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p En zonas de laderas y de alta pendiente del terreno, la recolección debe empezar en la parte más alta y continuar cuesta abajo mientras se cargan los vehículos. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/9.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p En zonas de laderas y de alta pendiente del terreno, la recolección debe empezar en la parte más alta y continuar cuesta abajo mientras se cargan los vehículos. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/10.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p En calles de alta pendiente, la recolección empezará en la parte más alta y, si se deben recoger ambas aceras, el conductor viajará cuesta abajo mientras el personal recolector carga el camión. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/10.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p En calles de alta pendiente, la recolección empezará en la parte más alta y, si se deben recoger ambas aceras, el conductor viajará cuesta abajo mientras el personal recolector carga el camión. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/11.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p En caso de recolección en ambas aceras, deben preferirse rutas derechas con pocos giros.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/11.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p En caso de recolección en ambas aceras, deben preferirse rutas derechas con pocos giros.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/12.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p El conductor o jefe de cuadrilla debe contar con una carta de recorrido o micro ruta preestablecida al momento de iniciar los servicios; ésta debe ser susceptible de adaptarse a medida que la cuadrilla descubra mejores formas de realizar el servicio (reducción de tiempo y consumo de combustible). 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/12.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p El conductor o jefe de cuadrilla debe contar con una carta de recorrido o micro ruta preestablecida al momento de iniciar los servicios; ésta debe ser susceptible de adaptarse a medida que la cuadrilla descubra mejores formas de realizar el servicio (reducción de tiempo y consumo de combustible). 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Deben minimizarse los tiempos muertos y recorridos improductivos.  
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Deben minimizarse los tiempos muertos y recorridos improductivos.  
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Deben considerarse las condiciones de tránsito real y futuro. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Deben considerarse las condiciones de tránsito real y futuro. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Debe considerarse la cantidad de residuos de los grandes generadores, teniendo en cuenta el censo.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Debe considerarse la cantidad de residuos de los grandes generadores, teniendo en cuenta el censo.
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Incluir en el análisis los usos del suelo y las características de los generadores específicos asentados en las diferentes áreas. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Incluir en el análisis los usos del suelo y las características de los generadores específicos asentados en las diferentes áreas. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p Evaluar y tener presente las alturas máximas permisibles en puentes vehiculares y peatonales, así como de infraestructura de comunicaciones, eléctrica y alumbrado público. 
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p Evaluar y tener presente las alturas máximas permisibles en puentes vehiculares y peatonales, así como de infraestructura de comunicaciones, eléctrica y alumbrado público. 
 
-      .tarjeta-avatar
-        img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop')
-        .tarjeta.bg_color2
-          .p-4
-            p La selección de los equipos de recolección deberá considerar el cálculo de las cantidades de residuos sólidos que se van a recoger por cada micro ruta.
+          .tarjeta-avatar.mb-4
+            img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop')
+            .tarjeta.bg_color2
+              .p-4
+                p La selección de los equipos de recolección deberá considerar el cálculo de las cantidades de residuos sólidos que se van a recoger por cada micro ruta.
+      
     separador 
 
     #t_2_3.titulo-segundo.color-acento-contenido
@@ -209,7 +212,7 @@
 
           .col-lg-4.mb-3.col-12
             .tarjeta-avatar
-              img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/19.png' alt='AvatarTop')
               .tarjeta1.bg_color3
                 .p-4
                   h5 Nivel de complejidad bajo y medio:
@@ -268,7 +271,7 @@
       .row.align-items-center(data-aos="zoom-in-up")
         .col-12.col-md-4
           figure.arri1
-            img(src="@/assets/curso/tema2/vec4.svg" style= "height: 450px")
+            img(src="@/assets/curso/tema2/vec4.png" style= "height: 450px")
         .col-12.col-md-8
           p.p-2 Los usuarios como parte activan del sistema de aseo de cualquier municipio deben estar informados sobre las rutas y horarios que ejecutará el prestador del servicio, por esta razón en el artículo 34 del decreto 2981 (2013) se establece la responsabilidad del prestador del servicio en divulgar rutas, horarios y frecuencia de recolección y barrido las cuales deberán darse a conocer a los usuarios, utilizando medios masivos de difusión de amplia circulación local.<br><br/>En las facturas de cobro del servicio público de aseo, deberá informarse las frecuencias de las diferentes actividades de recolección del servicio. El prestador del servicio deberá publicar en la página web las rutas y horarios de prestación de las diferentes actividades de recolección del servicio. 
     separador 

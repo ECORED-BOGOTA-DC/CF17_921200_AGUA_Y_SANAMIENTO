@@ -1,1 +1,1 @@
-module.exports = 'CF17-Tecnólogo_Supervisión_de_sistemas_de_agua_y_saneamiento'
+module.exports = 'Caracterización del servicio público domiciliario de aseo'
