@@ -71,12 +71,6 @@ const router = new VueRouter({
         ),
     },
     {
-      path: '/sintesis',
-      name: 'sintesis',
-      component: () =>
-        import(/* webpackChunkName: "sintesis" */ '../views/sintesis.vue'),
-    },
-    {
       path: '/creditos',
       name: 'creditos',
       component: () =>
